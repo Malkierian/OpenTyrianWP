@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>b99e7318-255c-4fb2-9eb7-1f335f66dfd6</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>55c47389-c519-4349-8a91-f6e94d6b9c24</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>02a9e40b-fe01-4824-a2b7-7d6faf4c07d7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\data">
+      <UniqueIdentifier>{04766f57-0e4c-4021-9826-134bcbd12497}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Logo.scale-240.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-240.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-240.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-240.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-240.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideLogo.scale-240.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Logo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideLogo.scale-140.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\WideLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\animlib.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\arg_parse.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\backgrnd.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\config.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\config_file.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\destruct.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\editship.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\episodes.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\file.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\font.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\fonthand.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\game_menu.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\helptext.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\joystick.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\jukebox.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\keyboard.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\lds_play.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\loudness.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\lvllib.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\lvlmast.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\mainint.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\menus.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\mouse.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\mtrand.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\musmast.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\network.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\nortsong.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\nortvars.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\opentyr.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\opl.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\palette.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\params.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\pcxload.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\pcxmast.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\picload.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\player.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\scroller.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\setup.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\shots.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\sizebuf.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\sndmast.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\sprite.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\starlib.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\std_support.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\tyrian2.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\varz.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\vga_palette.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\vga256d.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\video.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\video_scale.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\video_scale_hqNx.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\xmas.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_winrt_main_NonXAML.cpp" />
+    <ClCompile Include="..\OpenTyrianWP.Shared\Common\otwp.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\animlib.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\arg_parse.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\backgrnd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\config_file.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\destruct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\editship.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\episodes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\file.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\font.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\fonthand.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\game_menu.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\helptext.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\hg_revision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\joystick.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\jukebox.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\keyboard.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\lds_play.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\loudness.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\lvllib.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\lvlmast.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\mainint.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\menus.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\mouse.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\mtrand.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\musmast.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\network.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\nortsong.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\nortvars.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\opentyr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\opl.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\palette.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\params.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\pcxload.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\pcxmast.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\picload.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\player.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\scroller.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\setup.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\shots.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\sizebuf.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\sndmast.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\sprite.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\starlib.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\std_support.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\tyrian2.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\varz.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\vga_palette.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\vga256d.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\video.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\video_scale.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\xmas.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OpenTyrianWP.Shared\Common\otwp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\data\helpme.doc">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\levels1.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\levels2.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\levels3.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\levels4.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\license.doc">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\loudness.awe">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\manual.doc">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\music.mus">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\netarena.pcx">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\netfont1.pcx">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\netfont2.pcx">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\netmega.pcx">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\netset.pcx">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\netterm.int">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh#.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh^.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh~.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh0.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh1.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh2.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh3.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh4.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh5.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh6.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh7.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh8.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsh9.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsha.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshb.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshc.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshd.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshe.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshf.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshg.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshh.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshi.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshj.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshk.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshl.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshm.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshn.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsho.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshp.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshr.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshs.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newsht.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshu.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\order.doc">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\order.tfp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\palette.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\setup.box">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\setup.ini">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\setup.int">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\shapes).dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\shapesw.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\shapesx.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\shapesy.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\shapesz.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\shipedit.doc">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\shipedit.pcx">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tshp2.pcx">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrend.anm">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrian.cdt">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrian.hdt">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrian.pic">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrian.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrian.snd">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrianc.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrset.pcx">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\user1.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\user2.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\cubetxt1.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\cubetxt2.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\cubetxt3.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\cubetxt4.dat">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\demo.1">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\demo.2">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\demo.3">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\demo.4">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\demo.5">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\dpmi16bi.ovl">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\estsc.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\exitmsg.bin">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\file_id.diz">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\modems.txt">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\newshv.shp">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrian.ico">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrian1.lvl">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrian2.lvl">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrian3.lvl">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\tyrian4.lvl">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\voices.snd">
+      <Filter>Assets\data</Filter>
+    </None>
+    <None Include="Assets\data\voicesc.snd">
+      <Filter>Assets\data</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7a9ff766-a1a8-4905-8db6-64715b43c093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{995d227f-42d0-4791-84f6-4770b2b15559}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
